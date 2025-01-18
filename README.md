@@ -4,7 +4,7 @@ O objetivo desse repositório é a publicação das páginas na web
 
 ## Realização das páginas
 
-Todas as páginas aqui constadas foram feitas a aprtir de ensinamentos contidos no curso "Talento Tech".
+Todas as páginas aqui constadas foram feitas a partir de ensinamentos contidos no curso "Talento Tech".
 
 ## Atividades do curso
 
