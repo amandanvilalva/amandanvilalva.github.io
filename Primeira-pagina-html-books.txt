@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<title>Página de Livros - Amanda Nogueira Vilalva</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f8ff;
+  color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #a8d0e6;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+/* Estilo da seção principal */
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo da área de navegação */
+nav {
+  background: #b1cbe8;
+  color: #ffffff;
+  padding: 20px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo do conteúdo */
+article {
+  padding: 20px;
+  width: 100%;
+  background-color: #d5e1f2;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+article h1 {
+  color: #6a7ba2;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #6a7ba2;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Layout responsivo */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Bem-vindo(a) à página de Amanda Nogueira Vilalva</h2>
+<p>Esta página é dedicada a compartilhar informações sobre livros que li e amo!</p>
+
+<header>
+  <h2>Meus Livros Favoritos</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#assim-acaba">É Assim que Acaba</a></li>
+      <li><a href="#assim-comeca">É Assim que Começa</a></li>
+      <li><a href="#uma-segunda-chance">Uma Segunda Chance</a></li>
+    </ul>
+  </nav>
+
+  <article id="assim-acaba">
+    <h1>É Assim que Acaba</h1>
+    <p><strong>Autora:</strong> Colleen Hoover</p>
+    <p>Um livro que mistura romance e drama, explorando os desafios do relacionamento de Lily Bloom e Ryle Kincaid. Comovente e realista, aborda questões importantes como violência doméstica e resiliência.</p>
+    <img src="https://m.media-amazon.com/images/I/91r5G8RxqfL._AC_UF1000,1000_QL80_.jpg" alt="Capa do livro É Assim que Acaba" style="width:70%; display:block; margin:auto; border-radius:10px;">
+  </article>
+
+  <article id="assim-comeca">
+    <h1>É Assim que Começa</h1>
+    <p><strong>Autora:</strong> Colleen Hoover</p>
+    <p>Continuação de "É Assim que Acaba", este livro foca em Lily e sua jornada de reconstrução emocional enquanto lida com desafios como a co-parentalidade e o retorno de Atlas Corrigan, seu grande amor do passado.</p>
+    <img src="https://m.media-amazon.com/images/I/81Izv2GRWoL._AC_UF1000,1000_QL80_.jpg" alt="Capa do livro É Assim que Começa" style="width:70%; display:block; margin:auto; border-radius:10px;">
+  </article>
+
+  <article id="uma-segunda-chance">
+    <h1>Uma Segunda Chance</h1>
+    <p><strong>Autora:</strong> Colleen Hoover</p>
+    <p>Uma história emocionante sobre segundas chances no amor e na vida. O livro mergulha nas complexidades das relações humanas, mostrando que, mesmo após erros e perdas, é possível encontrar redenção e felicidade.</p>
+    <img src="https://m.media-amazon.com/images/I/81b48B0vpNL._AC_UF1000,1000_QL80_.jpg" alt="Capa do livro A Segunda Chance" style="width:70%; display:block; margin:auto; border-radius:10px;">
+  </article>
+</section>
+
+<footer>
+  <p>Criado por Amanda Nogueira Vilalva - 2025</p>
+</footer>
+
+</body>
+</html>
