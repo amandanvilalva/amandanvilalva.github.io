@@ -18,5 +18,5 @@ As atividades do curso tendem a seguir uma estrutura de páginas requisitadas, s
 
 **Atividade 4:** Jogo da Velha Web
 
-Logo, as atividades realizadas por mim, correspondes as descritas anteriormente!
+Logo, as atividades realizadas por mim, corresponde essas descritas anteriormente!
 
